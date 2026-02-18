@@ -1,0 +1,102 @@
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.source-code-pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    color: #34eb5e;
+    text-align: center;
+    text-shadow: 2px 2px 5px #96faad;
+    animation: textanimation 5s;
+    font-size: clamp(2em, 8dvw, 12.5rem);
+}
+
+nav {
+    font-family: "Source Code Pro", monospace;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #0099ff;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #aceefa;
+    text-align: center;
+    font-size: 25px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c4ffce;
+}
+
+a:hover {
+    color: #ffc4ee;
+}
+
+a:active {
+    color: #fffbc4;
+}
+
+body {
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #001626;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: #001626;}
+    to {background-color: #013280;}
+}
+
+@keyframes textanimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(25px);
+    }
+    0% {
+        transform: translateY(-25px);
+    }
+}
+
+.projects {
+    font-size:24px;
+    text-decoration: underline;
+}
+
+strong {
+    font-size: 20px;
+    color: #fc037b;
+}
+
+button {
+    font-family: "Source Code Pro", monospace;
+    background-color: #fc0345;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 0px;
+    border-radius: 40px;
+}
